@@ -1,4 +1,4 @@
-import movies from '../movies.json' with { type: 'json'} // eslint-disable-line
+import movies from '../../movies.json' with { type: 'json'} // eslint-disable-line
 import { randomUUID } from 'node:crypto'
 
 export class MovieModel {
